@@ -1,0 +1,71 @@
+﻿html{
+    height:100%;
+}
+
+body {
+    background-color: aquamarine;
+    height:100%;
+    margin: 0;
+    padding:0;
+}
+
+#navbar {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, #808080, #000000);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    z-index: 100; 
+}
+
+
+    #navbar a {
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        color: aquamarine;
+        text-decoration: none;
+    }
+
+        #navbar a:hover {
+            text-decoration: underline;
+        }
+
+#head {
+    width: 100%;
+    position: relative; 
+    z-index: 1; 
+}
+
+
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to left, #808080, #000000);
+    color: aquamarine;
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    z-index: 100;
+}
+
+#form1 {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#placeholder{
+
+    height:100%;
+    margin-top:30px;
+}
